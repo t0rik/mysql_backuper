@@ -1,4 +1,4 @@
-# MySQL Backup Script - Installation Guide
+# MySQL Backuper Script - Installation Guide
 
 ## Description
 This script creates backups of all MySQL databases organized by day of week with automatic rotation (7-day retention).
