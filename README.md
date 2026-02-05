@@ -219,17 +219,6 @@ sudo yum install gzip ftp lftp mailx
 - Verify FTP server accessibility
 - Consider using lftp for more reliable operation
 
-## Laravel Support
-
-If you're using Laravel, you can integrate backups via package:
-
-```bash
-composer require spatie/laravel-backup
-php artisan vendor:publish --provider="Spatie\Backup\BackupServiceProvider"
-```
-
-This will give you more control and integration with your application.
-
 ## Advanced Version Features
 
 The `mysql_backup_advanced_en.sh` script includes:
